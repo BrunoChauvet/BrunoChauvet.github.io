@@ -3,6 +3,11 @@ var imageFit = function() {
   $('.parallax').css('min-height', windowHeight);
 };
 
+function scrollToAnchor(id){
+  var anchor = $("#" + id);
+  $('html, body').animate({scrollTop: anchor.offset().top}, 'slow');
+}
+
 $(document).ready(function() {
    // cache the window object
    $window = $(window);
