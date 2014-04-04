@@ -1,0 +1,47 @@
+.navbar {
+	margin-bottom: 0px;
+}
+
+.img-txt {
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  color: #FFFFFF;
+}
+
+#intro { 
+  background: url(../images/intro.jpg) fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: auto;
+  margin: 0 auto;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+}
+
+#home { 
+  background: url(../images/home.jpg) 50% 0 fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: auto;  
+  margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 200px 0;
+}
+
+#about { 
+  background: url(../images/about.png) 50% 0 fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: auto;
+  margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+    color: #fff;
+}
+
+.media-object { width: 64px; height: 64px; padding-bottom: 30px }
