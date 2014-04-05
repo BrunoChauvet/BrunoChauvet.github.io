@@ -1,5 +1,59 @@
-.navbar {
-	margin-bottom: 0px;
+.navbar-parallax {
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar-parallax .navbar-brand {
+  color: #FFFFFF;
+}
+.navbar-parallax .navbar-brand:hover, .navbar-parallax .navbar-brand:focus {
+  color: #ffbbbc;
+}
+.navbar-parallax .navbar-text {
+  color: #FFFFFF;
+}
+.navbar-parallax .navbar-nav > li > a {
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar-parallax .navbar-nav > li > a:hover, .navbar-parallax .navbar-nav > li > a:focus {
+  color: #ffbbbc;
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar-parallax .navbar-nav > .active > a, .navbar-parallax .navbar-nav > .active > a:hover, .navbar-parallax .navbar-nav > .active > a:focus {
+  color: #ffbbbc;
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar-parallax .navbar-nav > .open > a, .navbar-parallax .navbar-nav > .open > a:hover, .navbar-parallax .navbar-nav > .open > a:focus {
+  color: #ffbbbc;
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar-parallax .navbar-toggle:hover, .navbar-parallax .navbar-toggle:focus {
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar-parallax .navbar-toggle .icon-bar {
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar-parallax .navbar-collapse,
+.navbar-parallax .navbar-form {
+  border-color: #FFFFFF;
+}
+.navbar-parallax .navbar-link {
+  color: #FFFFFF;
+}
+.navbar-parallax .navbar-link:hover {
+  color: #ffbbbc;
+}
+
+@media (max-width: 767px) {
+  .navbar-parallax .navbar-nav .open .dropdown-menu > li > a {
+    color: #FFFFFF;
+  }
+  .navbar-parallax .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-parallax .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffbbbc;
+  }
+  .navbar-parallax .navbar-nav .open .dropdown-menu > .active > a, .navbar-parallax .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-parallax .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffbbbc;
+    background-color: rgba(0, 0, 0, 0);
+  }
 }
 
 .img-txt {
@@ -13,10 +67,9 @@
   background-size: 100%;
   height: auto;
   margin: 0 auto;
-    width: 100%;
-    position: relative;
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
-    padding: 100px 0;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
 #home { 
@@ -25,10 +78,10 @@
   background-size: 100%;
   height: auto;  
   margin: 0 auto; 
-    width: 100%; 
-    position: relative; 
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
-    padding: 200px 0;
+  width: 100%; 
+  position: relative; 
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding: 200px 0;
 }
 
 #about { 
@@ -37,11 +90,11 @@
   background-size: 100%;
   height: auto;
   margin: 0 auto; 
-    width: 100%; 
-    position: relative; 
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
-    padding: 100px 0;
-    color: #fff;
+  width: 100%; 
+  position: relative; 
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding: 100px 0;
+  color: #fff;
 }
 
 .media-object { width: 64px; height: 64px; padding-bottom: 30px }
