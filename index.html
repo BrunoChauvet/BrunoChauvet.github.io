@@ -34,7 +34,6 @@
 		      <ul class="nav navbar-nav">
 		        <li><a href="#" onclick="scrollToAnchor('intro');">Home</a></li>
 		        <li><a href="#projects" onclick="scrollToAnchor('projects');">Projects</a></li>
-		        <li><a href="#about" onclick="scrollToAnchor('about');">About</a></li>
 		      </ul>
 		    </div>
 		  </div>
@@ -57,43 +56,69 @@
 	<section id="projects" class="parallax" data-speed="4" data-type="background">
 		<div class="container">
 			<div class="row-fluid">
-        <div class="row">
-					<article class="post">
-						<div class="col-sm-12 col-md-3">
+        <div class="row project">
+          <article class="post">
+            <div class="col-sm-12 col-md-3">
               <div class="project-image">
-							  <img src="https://camo.githubusercontent.com/422deb1a865542857c794aa751753724d793bbe1/687474703a2f2f6933392e74696e797069632e636f6d2f317a763332386b2e706e67" class="img-responsive img-thumbnail">
+                <img src="http://i59.tinypic.com/210ycua.png" class="img-responsive img-thumbnail">
               </div>
-						</div>
-						<div class="col-sm-12 col-md-9">
-							<h3>Silent Auction <span class="text-muted">UFE Charity Gala</span></h3>
-							<p>As part of the annual <a href="http://en.wikipedia.org/wiki/Union_des_Fran%C3%A7ais_de_l%27Etranger" target="_blank">UFE (French Foreign Union)</a> Charity Gala, a silent auction is organised and funds revert to <a href="http://www.rmhc.org.au/westmead" target="_blank">Ronald McDonald House at Westmead</a></p>
-							<ul class="list-unstyled">
-								<li><i class="glyphicon glyphicon-align-center"></i><span class="project-item">Ruby on Rails, AngularJS, MySQL, Unicorn, Capistrano, RSpec, Cucumber</span></li>
-								<li><i class="glyphicon glyphicon-calendar"></i><span class="project-item">Oct 2013</span></li>
+            </div>
+            <div class="col-sm-12 col-md-9 collapse-group">
+              <h3>Community Bookshelf <span class="text-muted">Playing with AngularFire</span></h3>
+              <p>
+                Investigate AngularJS and Firebase capabilities. Users can manage a virtual library of books they own by searching available titles from Google Book API and adding them to their collection.
+              </p>
+              <p>
+                <a class="more" href="#">Read more &raquo;</a>
+              </p>
+              <p class="collapse">
+                Taking advantage of Firebase Simple Login, users are authenticated using a supported public account (Github for instance). Books can be searched from the Google Book API and added to user's collection.  The powerful 3-ways-binding offered by AngularFire updates user's collection in real time.
+                <br/><br/>
+                Ultimately, the application would allow users to share their library with their neighbourhood, manage books borrowed by the community, support books review and match users preference to provide recommendations. A nice design would be more than welcome :)
+              </p>
+              <ul class="list-unstyled project-items">
+                <li><i class="glyphicon glyphicon-align-center"></i><span class="project-item">Ruby on Rails, AngularJS, Firebase AngularFire, Bootstrap</span></li>
+                <li><i class="glyphicon glyphicon-calendar"></i><span class="project-item">Mar 2014 (1 week)</span></li>
+                <li><i class="glyphicon glyphicon-globe"></i><a class="project-item" href="http://community-bookshelf.herokuapp.com/" target="_blank">Live demo</a></li>
+                <li><i class="glyphicon glyphicon-folder-open"></i><a class="project-item" href="https://github.com/BrunoChauvet/community-bookshelf" target="_blank">Project source</a></li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="row project">
+          <article class="post">
+            <div class="col-sm-12 col-md-3">
+              <div class="project-image">
+                <img src="https://camo.githubusercontent.com/422deb1a865542857c794aa751753724d793bbe1/687474703a2f2f6933392e74696e797069632e636f6d2f317a763332386b2e706e67" class="img-responsive img-thumbnail">
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-9 collapse-group">
+              <h3>Silent Auction <span class="text-muted">UFE Charity Gala</span></h3>
+              <p>
+                As part of the annual <a href="http://en.wikipedia.org/wiki/Union_des_Fran%C3%A7ais_de_l%27Etranger" target="_blank">UFE (French Foreign Union)</a> Charity Gala, a silent auction is organised and funds revert to <a href="http://www.rmhc.org.au/westmead" target="_blank">Ronald McDonald House at Westmead</a>
+              </p>
+              <p>
+                <a class="more" href="#">Read more &raquo;</a>
+              </p>
+              <p class="collapse">
+                The items part of the auctions are displayed on a giant screen with the current highest bid and the total amount raised as well as the remaining time. Screen rotates in order to display the full list of items.
+                <br/><br/>
+                Guests have the possibility to log into the silent auction interface via their mobile and place bids. The main screen is updated in real time as well as the user mobile interface with the status of their bids.
+                <br/><br/>
+                During the 2013 Charity Gala, more than $22,000 have been raised. Only volunteers work at the UFE and the totality of funds raised are is given to Ronald McDonald House at Westmead to help childen and their family.
+              </p>
+              <ul class="list-unstyled project-items">
+                <li><i class="glyphicon glyphicon-align-center"></i><span class="project-item">Ruby on Rails, AngularJS, Bootstrap, MySQL, Unicorn, Capistrano, RSpec, Cucumber</span></li>
+                <li><i class="glyphicon glyphicon-calendar"></i><span class="project-item">Nov 2013 (2 months)</span></li>
                 <li><i class="glyphicon glyphicon-globe"></i><a class="project-item" href="http://silent-auction.herokuapp.com" target="_blank">Live demo</a></li>
                 <li><i class="glyphicon glyphicon-folder-open"></i><a class="project-item" href="https://github.com/BrunoChauvet/silent-auction" target="_blank">Project source</a></li>
-							</ul>
-						</div>
-					</article>
-				</div>
-	    </div>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
 	  </div>
-	</section>
-
-	<!-- Section #3 -->
-	<section id="about" class="parallax" data-speed="2" data-type="background">
-		<div class="container">
-			<div class="page-header">
-				<h1>Final Section Headline <small>Some subtext goes here...</small></h1>
-			</div>
-			<div class="row-fluid">
-		        <div class="span4">
-		          <h2>More Details</h2>
-		          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque cursus nisl consectetur et.</p>
-		          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque cursus nisl consectetur et.</p>
-		        </div><!-- /.span4 -->
-	    	</div>
-	    </div>
 	</section>
 
 </body>
