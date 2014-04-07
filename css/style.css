@@ -3,9 +3,13 @@
 }
 .navbar-parallax .navbar-brand {
   color: #FFFFFF;
+  background-image: url('../images/github-logo.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 35px;
 }
 .navbar-parallax .navbar-brand:hover, .navbar-parallax .navbar-brand:focus {
-  color: #ffbbbc;
+  color: #8bbcff;
 }
 .navbar-parallax .navbar-text {
   color: #FFFFFF;
@@ -15,15 +19,15 @@
   background-color: rgba(0, 0, 0, 0);
 }
 .navbar-parallax .navbar-nav > li > a:hover, .navbar-parallax .navbar-nav > li > a:focus {
-  color: #ffbbbc;
+  color: #8bbcff;
   background-color: rgba(0, 0, 0, 0);
 }
 .navbar-parallax .navbar-nav > .active > a, .navbar-parallax .navbar-nav > .active > a:hover, .navbar-parallax .navbar-nav > .active > a:focus {
-  color: #ffbbbc;
+  color: #8bbcff;
   background-color: rgba(0, 0, 0, 0);
 }
 .navbar-parallax .navbar-nav > .open > a, .navbar-parallax .navbar-nav > .open > a:hover, .navbar-parallax .navbar-nav > .open > a:focus {
-  color: #ffbbbc;
+  color: #8bbcff;
   background-color: rgba(0, 0, 0, 0);
 }
 .navbar-parallax .navbar-toggle:hover, .navbar-parallax .navbar-toggle:focus {
@@ -40,7 +44,7 @@
   color: #FFFFFF;
 }
 .navbar-parallax .navbar-link:hover {
-  color: #ffbbbc;
+  color: #8bbcff;
 }
 
 @media (max-width: 767px) {
@@ -48,10 +52,10 @@
     color: #FFFFFF;
   }
   .navbar-parallax .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-parallax .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffbbbc;
+    color: #8bbcff;
   }
   .navbar-parallax .navbar-nav .open .dropdown-menu > .active > a, .navbar-parallax .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-parallax .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffbbbc;
+    color: #8bbcff;
     background-color: rgba(0, 0, 0, 0);
   }
 }
